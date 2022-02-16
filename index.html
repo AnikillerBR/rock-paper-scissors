@@ -10,15 +10,20 @@
     <body>
         <p>Jogo Pedra, Papel ou Tesoura</p>
         <p>
-            Digite a sua opção: (pedra, papel ou tesoura)
-            <input type="text" class="txtuser" size="10" style="text-transform:lowercase"> (pedra, papel ou tesoura)
+            Escolha a sua opção: (pedra, papel ou tesoura)
+            <button class="pedra" onclick="pedra()"> Pedra </button>
+            <button class="papel" onclick="papel()"> Papel </button>
+            <button class="tesoura" onclick="tesoura()"> Tesoura </button>
+
         </p>
         <p>
-            <button onclick="jogoppt()">resultado</button>
+            <button onclick="jogoppt()"> Jogar! </button>
         </p>
         <p class="resultado"></p>
-        <p class="rcomp"></p>
-        <p class="ruser"></p>
+        PC:<p class="wintotalcomp"></p>
+        Usuário:<p class="wintotaluser"></p>
+        <p><h1 class="r-jogo-titulo"></h1></p>
+        <p class="txt-r-jogo-titulo"></p>
     </body>
     </html>
 </html>
